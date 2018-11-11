@@ -6,6 +6,10 @@ export const routes = [
     loadChildren: 'news/index#NewsModule'
   },
   {
+    path: 'sponsors',
+    loadChildren: 'sponsors/index#SponsorsModule'
+  },
+  {
     path: '**',
     redirectTo: ''
   }

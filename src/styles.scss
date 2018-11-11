@@ -1,5 +1,14 @@
-@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+$white: #e5e5e5;
+$black: #212121;
+$primary: #c72c24;
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "proxima-nova",sans-serif;
+  margin: 0;
+  background-color: #212121;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
 }

@@ -3,5 +3,5 @@ export type NewsItem = {
   subtitle?: string;
   message: string;
   photo?: string;
-  dateTime: string;
+  date: string;
 };

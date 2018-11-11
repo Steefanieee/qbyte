@@ -1,0 +1,46 @@
+@import "../styles.scss";
+
+div {
+  width: calc(100vw - 15px);
+  height: calc(100vh - 140px);
+  background-color: $primary;
+  clip-path: polygon(0 0, 0 100%, 100% 72%);
+  position: absolute;
+  top: 80px;
+}
+
+mat-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: $primary;
+}
+
+footer {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      height: 20px;
+      cursor: pointer;
+      padding: 10px;
+
+      i {
+        color: $white;
+      }
+    }
+  }
+}

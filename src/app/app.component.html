@@ -1,1 +1,10 @@
-<router-outlet></router-outlet>
+<div *ngIf="!loading"></div>
+<router-outlet>
+</router-outlet>
+<mat-spinner *ngIf="loading"></mat-spinner>
+<footer>
+  <ul>
+    <li><a href="https://www.facebook.com/TeamQbyte/"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="mailto:info@qbyte.be"><i class="fa fa-envelope"></i></a></li>
+  </ul>
+</footer>
